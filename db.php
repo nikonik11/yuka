@@ -4,11 +4,11 @@ error_reporting(-1);
 ini_set('display_errors', 'On');
 
 
-define('DB_NAME', '');
-define('DB_USER', '');
-define('DB_PASSWORD', '');
-define('DB_HOST', '');
-define('DB_TABLE', '');
+define('DB_NAME', 'yuka');
+define('DB_USER', 'root');
+define('DB_PASSWORD', 'root');
+define('DB_HOST', 'localhost:8889');
+define('DB_TABLE', 'membre');
 
 try
 {
@@ -18,4 +18,3 @@ try
 {
     echo $sql . "<br>" . $e->getMessage();
 }   
-
